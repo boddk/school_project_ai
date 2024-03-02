@@ -1,0 +1,146 @@
+body {
+  background-image: url(bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  font-family: "Mulish", sans-serif;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  margin: auto;
+  z-index: 100;
+}
+p {
+  font-size: 1.3em;
+}
+.navbar {
+  position: center;
+  width: max-content;
+  height: 3em;
+  z-index: 101;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  background: #c6d1d83c;
+  border-radius: 3em;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.1px);
+  -webkit-backdrop-filter: blur(8.1px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+}
+@media (max-width: 768px) {
+  .navbar {
+    width: 100vw;
+    height: 10vh;
+  }
+}
+
+.container {
+  width: 60%;
+  height: fit-content;
+  margin: 1em;
+  margin-bottom: 0.5em;
+  padding: 1em;
+  border-radius: 2em;
+  background: #f6fcff60;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  z-index: 102;
+  transition: 0.3s;
+}
+.center {
+  width: 100vw;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 15em;
+}
+.border {
+  border-radius: 2em;
+}
+.header {
+  text-align: center;
+  align-items: center;
+  font-size: 1.3em;
+  border-bottom: 1px solid #3b3b3b;
+  width: 100%;
+  padding-bottom: 0.5em;
+}
+.header h1 {
+  margin: 0.2em;
+  font-size: 2em;
+  width: fit-content;
+}
+.header h2 {
+  margin: 0 auto;
+}
+.navbar a {
+  max-width: 100%;
+  text-decoration: none;
+  color: #000000;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-grad {
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(16.1px);
+  -webkit-backdrop-filter: blur(16.1px);
+  margin-left: 1em;
+  margin-right: 1em;
+  padding: 15px 25px;
+  font-size: 1.4em;
+  text-align: center;
+  text-transform: capitalize;
+  transition: 0.5s;
+  color: white;
+  border-radius: 5em;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+@media (max-width: 768px) {
+  .btn-grad {
+    font-size: 1em;
+  }
+}
+footer {
+  background: #d5d5d593;
+  border-radius: 3em;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.359);
+  backdrop-filter: blur(8.1px);
+  -webkit-backdrop-filter: blur(8.1px);
+  text-align: center;
+  justify-content: center;
+  margin: 0.2em;
+  padding: 0.5em;
+  position: fixed;
+  bottom: 0;
+  width: 95%;
+  font-size: 2vh;
+  z-index: 104;
+}
+.sitenav {
+  margin: 1em;
+  font-size: 2em;
+}
+
+.sitenav a {
+  color: #000000;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.sitenav a:hover {
+  color: #c0c0c0;
+}
