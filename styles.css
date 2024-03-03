@@ -36,7 +36,6 @@ p {
     height: 10vh;
   }
 }
-
 .container {
   width: 60%;
   height: fit-content;
@@ -86,29 +85,29 @@ p {
   display: flex;
   justify-content: space-between;
 }
-
 .btn-grad {
   background: rgba(255, 255, 255, 0.03);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(16.1px);
   -webkit-backdrop-filter: blur(16.1px);
-  margin-left: 1em;
-  margin-right: 1em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
   padding: 15px 25px;
   font-size: 1.4em;
   text-align: center;
   text-transform: capitalize;
-  transition: 0.5s;
+  transition: 0.3s;
   color: white;
   border-radius: 5em;
   display: block;
 }
 
 .btn-grad:hover {
-  background-position: right center;
+  background: rgba(255, 255, 255, 0.249);
   color: #fff;
   text-decoration: none;
+  font-size: 1.7em;
 }
 @media (max-width: 768px) {
   .btn-grad {
@@ -118,7 +117,7 @@ p {
 footer {
   background: #d5d5d593;
   border-radius: 3em;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.359);
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.595);
   backdrop-filter: blur(8.1px);
   -webkit-backdrop-filter: blur(8.1px);
   text-align: center;
@@ -135,11 +134,10 @@ footer {
   margin: 1em;
   font-size: 2em;
 }
-
 .sitenav a {
   color: #000000;
   text-decoration: none;
-  transition: 0.5s;
+  transition: 0.4s;
 }
 .sitenav a:hover {
   color: #c0c0c0;
