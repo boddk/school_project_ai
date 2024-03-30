@@ -14,6 +14,10 @@ body {
 p {
   font-size: 1.3em;
 }
+a {
+  color: #000000;
+  text-decoration: none;
+}
 .navbar {
   position: center;
   width: fit-content;
@@ -102,12 +106,7 @@ p {
   background: rgba(255, 255, 255, 0.249);
   color: #fff;
   text-decoration: none;
-  font-size: 1.7em;
-}
-@media (max-width: 768px) {
-  .btn-grad {
-    font-size: 1em;
-  }
+  font-size: 1.5em;
 }
 footer {
   background: #d5d5d593;
@@ -127,7 +126,7 @@ footer {
 }
 .sitenav {
   margin: 1em;
-  font-size: 2em;
+  font-size: 1.7em;
 }
 .sitenav a {
   color: #000000;
@@ -153,9 +152,11 @@ footer {
     width: 100%;
     margin-top: 0.3em;
   }
-
+  .btn-grad {
+    font-size: 1em;
+  }
   .btn-grad:hover {
-    font-size: 1.8em;
+    font-size: 1.5em;
   }
   p {
     font-size: 1em;
@@ -168,9 +169,6 @@ footer {
   }
   .header h1 {
     font-size: 1.5em;
-  }
-  footer {
-    font-size: 0.6em;
   }
   li::marker {
     font-size: 0.78em;
