@@ -140,6 +140,10 @@ footer {
   .container {
     width: 88%;
   }
+  .sitenav {
+    margin: 0.3em;
+    font-size: 1.7em;
+  }
   .navbar {
     display: grid;
     width: 90%;
@@ -162,7 +166,7 @@ footer {
     font-size: 1em;
   }
   a {
-    font-size: 0.7em;
+    font-size: 1em;
   }
   h2 {
     font-size: 1.2em;
