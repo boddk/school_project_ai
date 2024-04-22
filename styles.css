@@ -136,6 +136,7 @@ footer {
 .sitenav a:hover {
   color: #c0c0c0;
 }
+
 @media (max-width: 768px) {
   .container {
     width: 88%;
@@ -181,4 +182,35 @@ footer {
 @media (min-width: 768px) and (max-width: 1024px) {
 }
 @media (min-width: 1024px) {
+}
+.dld-btn a {
+  max-width: 95%;
+  text-decoration: none;
+  color: #000000;
+  display: flexbox;
+  justify-content: space-between;
+}
+.dld-btn {
+  background: rgba(0, 0, 0, 0.577);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(16.1px);
+  -webkit-backdrop-filter: blur(16.1px);
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  padding: 15px 25px;
+  font-size: 1.4em;
+  text-align: center;
+  text-transform: capitalize;
+  transition: 0.3s;
+  color: white;
+  border-radius: 5em;
+  display: block;
+}
+
+.dld-btn:hover {
+  background: rgba(53, 134, 102, 0.552);
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5em;
 }
