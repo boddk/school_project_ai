@@ -214,3 +214,9 @@ footer {
   text-decoration: none;
   font-size: 1.5em;
 }
+img {
+  width: 100%;
+  border-radius: 30px;
+  margin-bottom: 1.5em;
+  box-shadow: rgba(0, 0, 0, 0.178) 0 4px 30px;
+}
